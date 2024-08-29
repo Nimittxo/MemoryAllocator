@@ -4,6 +4,10 @@
 #include <unistd.h>
 #include <pthread.h>
 #include <sys/mman.h>
+#include <ct_ffdc.h>
+#include <dirent.h>
+#include <filesys.h>
+#include <grp.h>
 
 #define TINY_MAX_SIZE 256
 #define SMALL_MAX_SIZE 4096
